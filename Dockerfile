@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8090
-ADD target/springmongoapp.jar springmongoapp.jar
-ENTRYPOINT ["java", "-jar", "/springmongoapp.jar"]
+ADD target/springmongoappnew.jar springmongoappnew.jar
+ENTRYPOINT ["java", "-jar", "/springmongoappnew.jar"]
