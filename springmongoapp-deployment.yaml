@@ -17,3 +17,12 @@ spec:
           image: shashi72174/springmongoappnew
           ports:
             - containerPort: 8090
+          env: # Setting Enviornmental Variables
+            - name: DB_NAME  # Setting Database name from configMap
+              value: ProductsDB
+
+            - name: DB_USERNAME  # Setting Database username from Secret
+              value: username
+
+            - name: DB_PASSWORD # Setting Database password from Secret
+              value: password
