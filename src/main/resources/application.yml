@@ -5,4 +5,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://username:password@mongodb-service:27017/ProductsDB
+      uri: mongodb://mongodb-service:27017/ProductsDB
