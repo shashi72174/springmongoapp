@@ -5,8 +5,4 @@ server:
 spring:
   data:
     mongodb:
-      database: ProductsDB
-      host: mongodb-service
-      port: 27017
-      username: ${DB_USERNAME}
-      password: ${DB_PASSWORD}
+      uri: mongodb://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:27017/${DB_NAME}
