@@ -18,14 +18,5 @@ spec:
           ports:
             - containerPort: 8090
           env: # Setting Enviornmental Variables
-            - name: DB_USERNAME  # Setting Database username from Secret
-              value: username
-
-            - name: DB_PASSWORD # Setting Database password from Secret
-              value: password
-
-            - name: DB_HOST # Setting Database password from Secret
-              value: mongodb-service
-
-            - name: DB_NAME
-              value: ProductsDB
+            - name: MONGO_URL  # Setting Database username from Secret
+              value: mongodb://username:password@mongodb-service:27017/ProductsDB
