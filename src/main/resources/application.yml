@@ -5,4 +5,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:27017/${DB_NAME}
+      uri: mongodb://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:27017/ProductsDB
