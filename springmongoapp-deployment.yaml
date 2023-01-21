@@ -17,6 +17,3 @@ spec:
           image: shashi72174/springmongoappnew
           ports:
             - containerPort: 8090
-          env: # Setting Enviornmental Variables
-            - name: MONGO_URL  # Setting Database username from Secret
-              value: mongodb://username:password@mongodb-service:27017/ProductsDB
