@@ -17,4 +17,3 @@ spec:
           image: shashi72174/springmongoappnew
           ports:
             - containerPort: 8090
-          imagePullPolicy: Always
